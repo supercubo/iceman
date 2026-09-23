@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conheça a ICEMAN: óculos de sol, polarizados, fotocromáticos, esportivos, infantis e clip-on. Encontre nossos produtos nas lojas oficiais.">
+  <meta name="theme-color" content="#07111f">
+  <title>ICEMAN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="favicon.jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="enhancements.css">
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <a class="brand" href="#topo" aria-label="ICEMAN — início">
+      <span class="brand-word">ICEMAN</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Navegação principal">
+      <a href="#colecoes">Coleções</a>
+      <a href="#diferenciais">A ICEMAN</a>
+      <a href="#onde-comprar">Onde comprar</a>
+    </nav>
+    <a class="header-cta" href="#onde-comprar">Ver lojas oficiais</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="hero-iceman-montanhas-v2.png" alt="Homem usando óculos ICEMAN diante de uma paisagem de montanhas">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow">DESIGN • CONFORTO • PERSONALIDADE</span>
+        <h1 id="hero-title">Seu estilo.<br><span>Sua visão.</span></h1>
+        <p>Óculos para acompanhar todos os seus momentos — do clássico ao esportivo, com proteção e presença.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#colecoes">Explorar catálogo</a>
+          <a class="button secondary" href="#onde-comprar">Onde comprar</a>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <span>Loja oficial nos marketplaces</span>
+        <span>Proteção UV400 em modelos selecionados</span>
+        <span>Marca brasileira registrada</span>
+      </div>
+    </section>
+
+    <section class="catalog section" id="colecoes" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow dark">CATÁLOGO ICEMAN</span>
+          <h2 id="catalog-title">Encontre o seu modelo</h2>
+        </div>
+        <p>Uma seleção das linhas encontradas nas nossas lojas oficiais. Consulte cores e disponibilidade no marketplace de sua preferência.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtrar catálogo">
+        <button class="filter active" type="button" data-filter="todos" aria-pressed="true">Todos</button><button class="filter" type="button" data-filter="polarizado" aria-pressed="false">Polarizados</button><button class="filter" type="button" data-filter="armacao" aria-pressed="false">Armações</button><button class="filter" type="button" data-filter="lentes-clipon" aria-pressed="false">Lentes clip-on</button><button class="filter" type="button" data-filter="fotocromatico" aria-pressed="false">Fotocromáticos</button><button class="filter" type="button" data-filter="esportivo" aria-pressed="false">Esportivos</button><button class="filter" type="button" data-filter="infantil" aria-pressed="false">Infantis</button>
+      </div>
+      <div class="product-grid" aria-live="polite">
+        <article class="product-card" data-category="polarizado"><div class="card-art photo-art"><img src="products/474/05-preto.png" alt="Óculos polarizado preto ICEMAN 474"></div><div class="card-copy"><span class="product-type">Polarizado • Esportivo</span><h3>ICEMAN 474</h3><p>Armação metálica, visual marcante e oito variações para o dia a dia.</p><a class="card-detail-link" href="produto/?modelo=474">Ver modelos <span aria-hidden="true">→</span></a></div></article>
+        <article class="product-card" data-category="armacao"><div class="card-art photo-art"><img src="products/catalog/iceman-armacao-clipon.png" alt="Armação de grau preta ICEMAN para sistema clip-on"></div><div class="card-copy"><span class="product-type">Armação • Grau</span><h3>Armações</h3><p>Armações leves e versáteis, incluindo modelos preparados para lentes clip-on.</p><a href="https://shopee.com.br/icemanoficial" target="_blank" rel="noopener">Ver na loja <span aria-hidden="true">↗</span></a></div></article>
+        <article class="product-card" data-category="lentes-clipon"><div class="card-art photo-art"><img src="products/catalog/iceman-lentes-clipon.png" alt="Conjunto de lentes clip-on ICEMAN em quatro cores"></div><div class="card-copy"><span class="product-type">Lentes • 4 cores</span><h3>Lentes clip-on</h3><p>Opções verde, fumê, marrom e amarela para diferentes usos.</p><a href="https://shopee.com.br/icemanoficial" target="_blank" rel="noopener">Ver na loja <span aria-hidden="true">↗</span></a></div></article>
+        <article class="product-card" data-category="fotocromatico"><div class="card-art photo-art"><img src="products/881F/03-preto.png" alt="Óculos fotocromático preto ICEMAN 881F"></div><div class="card-copy"><span class="product-type">Fotocromático • Quadrado</span><h3>ICEMAN 881F</h3><p>Armação quadrada contemporânea com três acabamentos e lentes adaptáveis.</p><a class="card-detail-link" href="produto/?modelo=881F">Ver modelos <span aria-hidden="true">→</span></a></div></article>
+        <article class="product-card" data-category="infantil polarizado"><div class="card-art photo-art"><img src="products/infantil/01-azul-amarelo.png" alt="Óculos ICEMAN INFANTIL azul e amarelo"></div><div class="card-copy"><span class="product-type">Infantil • Flexível</span><h3>ICEMAN INFANTIL</h3><p>Conforto, flexibilidade e proteção em treze combinações de cores.</p><a class="card-detail-link" href="produto/?modelo=476">Ver modelos <span aria-hidden="true">→</span></a></div></article>
+        <article class="product-card" data-category="esportivo polarizado fotocromatico"><div class="card-art photo-art"><img src="products/ciclismo/02-azul-claro.png" alt="Óculos ICEMAN CICLISMO azul"></div><div class="card-copy"><span class="product-type">Esportivo • Ciclismo</span><h3>ICEMAN CICLISMO</h3><p>Campo de visão amplo, encaixe esportivo e cinco opções de lentes e acabamentos.</p><a class="card-detail-link" href="produto/?modelo=ciclismo">Ver modelos <span aria-hidden="true">→</span></a></div></article>
+        <article class="product-card" data-category="fotocromatico esportivo"><a class="product-card-link" href="produto/?modelo=989F"><div class="card-art photo-art"><img src="products/989F/01-prateado.png" alt="Óculos meio aro metálico ICEMAN 989F prateado"></div><div class="card-copy"><span class="product-type">Fotocromático • Meio aro</span><h3>ICEMAN 989F</h3><p>Armação metálica leve, perfil técnico e lentes adaptáveis à luminosidade.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado"><a class="product-card-link" href="produto/?modelo=834"><div class="card-art photo-art"><img src="products/834/02-transparente.png" alt="Óculos redondo transparente ICEMAN 834"></div><div class="card-copy"><span class="product-type">Polarizado • Redondo</span><h3>ICEMAN 834</h3><p>Formato compacto e personalidade para combinações modernas.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado"><a class="product-card-link" href="produto/?modelo=695"><div class="card-art photo-art"><img src="products/695/01-preto-lente-preta.png" alt="Óculos ICEMAN 695 preto com lente preta"></div><div class="card-copy"><span class="product-type">Polarizado • Meio aro</span><h3>ICEMAN 695</h3><p>Clássico, elegante e disponível em diferentes combinações de cores.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado esportivo fotocromatico"><a class="product-card-link" href="produto/?modelo=765"><div class="card-art photo-art"><img src="products/765/04-azul.png" alt="Óculos ICEMAN 765 azul espelhado"></div><div class="card-copy"><span class="product-type">Polarizado • Urbano</span><h3>ICEMAN 765</h3><p>Armação leve, lentes UV400 e sete combinações de cores.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado"><a class="product-card-link" href="produto/?modelo=139"><div class="card-art photo-art"><img src="products/139/01-prateado.png" alt="Óculos aviador quadrado ICEMAN 139 prateado"></div><div class="card-copy"><span class="product-type">Polarizado • Aviador</span><h3>ICEMAN 139</h3><p>Formato militar quadrado com armação metálica e presença marcante.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado"><a class="product-card-link" href="produto/?modelo=612"><div class="card-art photo-art"><img src="products/612/01-cinza-chumbo.png" alt="Óculos aviador ICEMAN 612 cinza chumbo"></div><div class="card-copy"><span class="product-type">Polarizado • Aviador</span><h3>ICEMAN 612</h3><p>Aviador grande com mola nas hastes e armação metálica.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado fotocromatico"><a class="product-card-link" href="produto/?modelo=468"><div class="card-art photo-art"><img src="products/468/01-marrom.png" alt="Óculos aviador ICEMAN 468 marrom"></div><div class="card-copy"><span class="product-type">Aviador • Fotocrômico</span><h3>ICEMAN 468</h3><p>Aviador metálico clássico com cinco acabamentos.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado esportivo"><a class="product-card-link" href="produto/?modelo=344"><div class="card-art photo-art"><img src="products/344/01-preto.png" alt="Óculos esportivo ICEMAN 344 preto"></div><div class="card-copy"><span class="product-type">Polarizado • Esportivo</span><h3>ICEMAN 344</h3><p>Linhas envolventes, armação metálica e lentes amplas.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="armacao luz-azul"><a class="product-card-link" href="produto/?modelo=274"><div class="card-art photo-art"><img src="products/274/01-preto-fosco.png" alt="Óculos de luz azul ICEMAN 274 preto fosco"></div><div class="card-copy"><span class="product-type">Luz azul • Grau</span><h3>ICEMAN 274</h3><p>Armação leve com cinco acabamentos para uso diário.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="armacao luz-azul"><a class="product-card-link" href="produto/?modelo=586B"><div class="card-art photo-art"><img src="products/586B/01-principal.png" alt="Óculos de luz azul ICEMAN 586B preto"></div><div class="card-copy"><span class="product-type">Luz azul • Meio aro</span><h3>ICEMAN 586B</h3><p>Modelo único com lentes transparentes e filtro de luz azul.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+        <article class="product-card" data-category="polarizado"><a class="product-card-link" href="produto/?modelo=253"><div class="card-art photo-art"><img src="products/253/01-azul.png" alt="Óculos polarizado quadrado ICEMAN 253 azul"></div><div class="card-copy"><span class="product-type">Polarizado • Quadrado</span><h3>ICEMAN 253</h3><p>Modelo quadrado marcante em seis combinações de cores.</p><span class="card-detail-link">Ver modelos <b aria-hidden="true">→</b></span></div></a></article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="diferenciais" aria-labelledby="manifesto-title">
+      <div class="manifesto-copy">
+        <span class="eyebrow">MAIS QUE UM ACESSÓRIO</span>
+        <h2 id="manifesto-title">Presença em<br>cada detalhe.</h2>
+        <p>A ICEMAN reúne design, conforto e personalidade em uma coleção criada para diferentes estilos, idades e rotinas.</p>
+      </div>
+      <div class="benefits">
+        <div><strong>01</strong><h3>Estilo versátil</h3><p>Do aviador clássico ao esportivo contemporâneo.</p></div>
+        <div><strong>02</strong><h3>Proteção</h3><p>Modelos com lentes polarizadas e proteção UV400.</p></div>
+        <div><strong>03</strong><h3>Para todos</h3><p>Linhas adulto, infantil, grau e acessórios.</p></div>
+      </div>
+    </section>
+
+    <section class="stores section" id="onde-comprar" aria-labelledby="stores-title">
+      <div class="stores-intro">
+        <span class="eyebrow dark">ONDE COMPRAR</span>
+        <h2 id="stores-title">Escolha sua loja oficial</h2>
+        <p>O site apresenta nossa marca e catálogo. As compras são realizadas com segurança nos nossos canais oficiais.</p>
+      </div>
+      <div class="store-links">
+        <a class="store-card ml" href="https://www.mercadolivre.com.br/loja/iceman" target="_blank" rel="noopener">
+          <span class="store-label">LOJA OFICIAL</span><strong>Mercado Livre</strong><span>Conhecer produtos <b aria-hidden="true">↗</b></span>
+        </a>
+        <a class="store-card shopee" href="https://shopee.com.br/icemanoficial" target="_blank" rel="noopener">
+          <span class="store-label">ICEMANOFICIAL</span><strong>Shopee</strong><span>Conhecer produtos <b aria-hidden="true">↗</b></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#topo"><span class="brand-word">ICEMAN</span></a>
+    <p>Catálogo institucional. Preços, cores e disponibilidade são informados nas lojas oficiais.</p>
+    <span>© <span id="year"></span> ICEMAN</span>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
